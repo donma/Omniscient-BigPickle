@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="全職設計視角 - 90 套專業網站樣板展示館，25 種獨特版型 x 15+ 產業，每套 12 頁完整網站">
+  <link rel="canonical" href="https://example.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="全職設計視角 - 專業網站樣板展示館">
+  <meta property="og:description" content="90 套專業網站樣板，25 種獨特版型，15+ 產業，每套 12 頁完整網站">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  <title>全職設計視角 - 90 套專業網站樣板</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="bi bi-grid-1x2-fill"></i></div>
+        <span>全職設計視角</span>
+      </a>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active">首頁</a></li>
+          <li><a href="#templates" class="nav-link">樣板館</a></li>
+          <li><a href="#about" class="nav-link">關於</a></li>
+          <li><a href="README.md" class="nav-link">說明文件</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="選單"><i class="bi bi-list"></i></button>
+    </div>
+  </header>
+
+  <section class="hero-section" id="about">
+    <h1>專業網站樣板展示館</h1>
+    <p>25 種獨特版型 × 15+ 產業 × 每套 12 頁完整網站 — 由頂尖設計視角打造，每一套都是獨一無二的設計作品</p>
+    <div class="stats-bar">
+      <div class="stat-item"><span class="stat-number" id="stat-total">90</span><span class="stat-label">套樣板</span></div>
+      <div class="stat-item"><span class="stat-number">25</span><span class="stat-label">種版型</span></div>
+      <div class="stat-item"><span class="stat-number">15</span><span class="stat-label">個產業</span></div>
+      <div class="stat-item"><span class="stat-number">1080</span><span class="stat-label">個頁面</span></div>
+    </div>
+  </section>
+
+  <div class="main-layout" id="templates">
+    <aside class="sidebar">
+      <h3>搜尋</h3>
+      <input type="text" class="search-input" id="search-input" placeholder="搜尋樣板名稱、產業、標籤...">
+
+      <h3>產業分類</h3>
+      <div class="filter-group" id="filter-industry">
+        <button class="filter-btn active" data-filter="industry" data-value="all">全部</button>
+        <button class="filter-btn" data-filter="industry" data-value="餐飲甜點">餐飲甜點</button>
+        <button class="filter-btn" data-filter="industry" data-value="美容健康">美容健康</button>
+        <button class="filter-btn" data-filter="industry" data-value="零售商品">零售商品</button>
+        <button class="filter-btn" data-filter="industry" data-value="專業服務">專業服務</button>
+        <button class="filter-btn" data-filter="industry" data-value="科技商務">科技商務</button>
+        <button class="filter-btn" data-filter="industry" data-value="創意設計">創意設計</button>
+        <button class="filter-btn" data-filter="industry" data-value="知識學習">知識學習</button>
+        <button class="filter-btn" data-filter="industry" data-value="空間生活">空間生活</button>
+        <button class="filter-btn" data-filter="industry" data-value="旅遊休閒">旅遊休閒</button>
+        <button class="filter-btn" data-filter="industry" data-value="活動組織">活動組織</button>
+        <button class="filter-btn" data-filter="industry" data-value="寵物服務">寵物服務</button>
+        <button class="filter-btn" data-filter="industry" data-value="地方品牌">地方品牌</button>
+      </div>
+
+      <h3>版型類型</h3>
+      <div class="filter-group" id="filter-layout">
+        <button class="filter-btn active" data-filter="layout" data-value="all">全部</button>
+        <button class="filter-btn" data-filter="layout" data-value="大圖沉浸式 Hero">大圖沉浸式 Hero</button>
+        <button class="filter-btn" data-filter="layout" data-value="左右分割 Split Layout">左右分割 Split</button>
+        <button class="filter-btn" data-filter="layout" data-value="Magazine 雜誌式首頁">Magazine 雜誌式</button>
+        <button class="filter-btn" data-filter="layout" data-value="Masonry 作品牆">Masonry 作品牆</button>
+        <button class="filter-btn" data-filter="layout" data-value="商品型 Grid Catalog">商品型 Grid</button>
+        <button class="filter-btn" data-filter="layout" data-value="Storytelling 長卷軸">Storytelling 長卷軸</button>
+        <button class="filter-btn" data-filter="layout" data-value="Bento Grid 現代資訊版">Bento Grid</button>
+        <button class="filter-btn" data-filter="layout" data-value="Editorial 文字導向">Editorial 文字導向</button>
+        <button class="filter-btn" data-filter="layout" data-value="Dashboard 數據型">Dashboard 數據型</button>
+        <button class="filter-btn" data-filter="layout" data-value="Event 活動型">Event 活動型</button>
+        <button class="filter-btn" data-filter="layout" data-value="Left Rail 左側導覽">Left Rail 左側導覽</button>
+        <button class="filter-btn" data-filter="layout" data-value="Map 地圖場域型">Map 地圖場域型</button>
+        <button class="filter-btn" data-filter="layout" data-value="Pricing 方案導向型">Pricing 方案導向</button>
+        <button class="filter-btn" data-filter="layout" data-value="Knowledge Hub 知識中心">知識中心</button>
+        <button class="filter-btn" data-filter="layout" data-value="Minimal 極簡多頁型">Minimal 極簡</button>
+        <button class="filter-btn" data-filter="layout" data-value="全螢幕影片背景">全螢幕影片背景</button>
+        <button class="filter-btn" data-filter="layout" data-value="不對稱網格">不對稱網格</button>
+        <button class="filter-btn" data-filter="layout" data-value="卡片牆串流風格">卡片牆串流</button>
+        <button class="filter-btn" data-filter="layout" data-value="時間軸式">時間軸式</button>
+        <button class="filter-btn" data-filter="layout" data-value="分頁內容中心">分頁內容中心</button>
+        <button class="filter-btn" data-filter="layout" data-value="側欄雜誌風格">側欄雜誌</button>
+        <button class="filter-btn" data-filter="layout" data-value="漂浮構圖">漂浮構圖</button>
+        <button class="filter-btn" data-filter="layout" data-value="斜角幾何分割">斜角幾何分割</button>
+        <button class="filter-btn" data-filter="layout" data-value="翻轉卡片互動">翻轉卡片互動</button>
+        <button class="filter-btn" data-filter="layout" data-value="視差故事書">視差故事書</button>
+      </div>
+
+      <h3>背景模式</h3>
+      <div class="filter-group" id="filter-bg">
+        <button class="filter-btn active" data-filter="background" data-value="all">全部</button>
+        <button class="filter-btn" data-filter="background" data-value="light">淺色底</button>
+        <button class="filter-btn" data-filter="background" data-value="dark">深色底</button>
+      </div>
+
+      <h3>色系</h3>
+      <div class="filter-group" id="filter-color">
+        <button class="filter-btn active" data-filter="color" data-value="all">全部</button>
+        <button class="filter-btn" data-filter="color" data-value="淺色系">淺色系</button>
+        <button class="filter-btn" data-filter="color" data-value="深色系">深色系</button>
+        <button class="filter-btn" data-filter="color" data-value="玫瑰金">玫瑰金</button>
+        <button class="filter-btn" data-filter="color" data-value="自然大地">自然大地</button>
+        <button class="filter-btn" data-filter="color" data-value="科技藍">科技藍</button>
+        <button class="filter-btn" data-filter="color" data-value="黑金奢華">黑金奢華</button>
+        <button class="filter-btn" data-filter="color" data-value="暖橘">暖橘</button>
+        <button class="filter-btn" data-filter="color" data-value="純白">純白</button>
+      </div>
+    </aside>
+
+    <main class="content-area">
+      <div class="content-header">
+        <span class="result-count" id="result-count">共 90 套樣板</span>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="grid" id="view-grid" title="網格檢視"><i class="bi bi-grid-3x3-gap-fill"></i></button>
+          <button class="view-btn" data-view="list" id="view-list" title="列表檢視"><i class="bi bi-list-ul"></i></button>
+        </div>
+      </div>
+      <div class="template-grid grid-view" id="template-grid"></div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p><strong>全職設計視角</strong> — 每一套樣板都是獨立設計作品，不只是換色換文字的公版</p>
+    <p style="margin-top:0.5rem;font-size:0.8rem">Generated by AI-assisted design system | 90 Templates × 25 Layout Types × 12 Pages Each</p>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>

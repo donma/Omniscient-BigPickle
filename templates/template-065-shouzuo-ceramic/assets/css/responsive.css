@@ -1,0 +1,25 @@
+﻿@media(max-width:991px){
+  .navbar-main .navbar-collapse{background:var(--nb);padding:15px;border-radius:12px;box-shadow:0 10px 40px rgba(0,0,0,.1);margin-top:10px}
+  .navbar-main .nav-link{padding:10px 15px!important}
+}
+@media(max-width:768px){
+  .hamburger-btn{display:flex!important}
+  h1{font-size:2rem!important}
+  h2{font-size:1.5rem!important}
+  .cta-section h2{font-size:1.6rem!important}
+  section{padding:40px 0!important}
+  .masonry-grid{columns:2!important}
+  [style*="position:fixed"][style*="left"][style*="top"]{display:none!important}
+  [style*="margin-left:260px"],[style*="margin-left:250px"]{margin-left:0!important}
+  footer .text-md-end{text-align:left!important;margin-top:10px}
+  .bento-grid{grid-template-columns:1fr!important}
+  [style*="grid-column:span"]{grid-column:span 1!important}
+  [style*="grid-template-columns:repeat(4"]{grid-template-columns:1fr 1fr!important}
+  footer [style*="columns"]{columns:1!important}
+}
+@media(max-width:576px){
+  .masonry-grid{columns:1!important}
+  .container{padding-left:20px;padding-right:20px}
+  [style*="display:flex"]{flex-wrap:wrap!important}
+  .back-to-top{bottom:15px;right:15px;width:40px;height:40px}
+}
