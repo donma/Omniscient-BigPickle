@@ -6,6 +6,8 @@
 
 本專案完全以 **BigPickle** 模型進行設計生成與內容創作，展現 AI 在網頁設計領域所能達到的專業廣度與細節深度。
 
+>[線上展示](https://donma.github.io/Omniscient-BigPickle)
+
 ---
 
 ## 目錄
